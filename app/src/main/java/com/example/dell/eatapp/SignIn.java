@@ -56,9 +56,8 @@ public class SignIn extends AppCompatActivity {
                         } else {
                             Toast.makeText(SignIn.this, "User not exist in Database", Toast.LENGTH_SHORT).show();
                         }
-
+                        System.out.println("test");
                     }
-
 
                     @Override
                     public void onCancelled(DatabaseError databaseError) {
